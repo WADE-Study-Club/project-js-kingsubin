@@ -1,0 +1,24 @@
+{
+  "name": "project-js-kingsubin",
+  "version": "1.0.0",
+  "description": "project-js-kingsubin",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsubin/project-js-kingsubin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsubin/project-js-kingsubin/issues"
+  },
+  "homepage": "https://github.com/kingsubin/project-js-kingsubin#readme",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "nanoid": "^3.1.20"
+  }
+}
