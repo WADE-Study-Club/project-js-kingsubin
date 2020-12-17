@@ -7,13 +7,11 @@
 	<title>Minimus</title>
 	<link rel="stylesheet" href="/minimus/src/index.css">
 	<link rel="icon" href="/minimus/img/favicon.ico">
-	<script src="index.js" defer></script>
+	<script type="module" src="/minimus/src/index.mjs"></script>
 </head>
-
 <body>
 	<div id="root">
 		<main class="root_container">
-			<!-- ================header================ -->
 			<header class="main_header">
 				<div class="left_section">
 					<svg class="hamburger__icon" id="Menu_Burger_Icon" data-name="Menu Burger Icon" viewBox="31.5 30 49.9 32">
@@ -44,19 +42,15 @@
 					<span class="mode-toggle_text">DARK</span>
 				</div>
 			</header>
-			<!-- // ================header================ -->
-
+			
 			<div class="main-container_bg">
-				<!-- ================main_container================ -->
 				<div class="main_container">
-
-					<!-- ================login-card================ -->
 					<div class="login-card">
 						<main class="login-content">
 							<span class="login-header">Login</span>
 							<form class="login-form">
-								<input type="email" class="login-input" placeholder="Email">
-								<input type="password" class="login-input" placeholder="Password">
+								<input type="email" id="login-email" class="login-input" placeholder="Email">
+								<input type="password" id="login-password" class="login-input" placeholder="Password">
 								<input type="submit" class="login-btn" value="Login">
 							</form>
 							<div class="signup-link-wrapper">
@@ -70,10 +64,7 @@
 							<hr class="login-aside-hr">
 						</aside>
 					</div>
-					<!-- // ================login-card================ -->
 				</div>
-				<!-- // ================main_container================ -->
-
 			</div>
 		</main>
 	</div>
